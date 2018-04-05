@@ -1,0 +1,1 @@
+java -jar -Xms3g -Xmx3g -XX:MaxDirectMemorySize=3g -XX:NewRatio=2 -XX:+UseParallelOldGC lib/io-algorithm-service-0.0.1-SNAPSHOT.jar>>stdout.log 2>&1 &
