@@ -1,5 +1,6 @@
 ext {
-    springBootVersion = '2.0.1.RELEASE'
+    springBootVersion = '1.5.9.RELEASE'
+    springBootAdminVersion = '1.5.7'
 
     lombokVersion = '1.14.4'
     guavaVersion = '22.0'
@@ -14,6 +15,7 @@ ext {
             springBootStarterWeb:       "org.springframework.boot:spring-boot-starter-web:${springBootVersion}",
             springBootGradlePlugins:       "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}",
             springBootStarterTest:       "org.springframework.boot:spring-boot-starter-web:${springBootVersion}",
+            springBootAdminClient:       "de.codecentric:spring-boot-admin-starter-client:${springBootAdminVersion}",
 
             //lombok
             lombok:       "org.projectlombok:lombok:${lombokVersion}",
