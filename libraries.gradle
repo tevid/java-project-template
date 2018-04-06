@@ -13,8 +13,9 @@ ext {
     libraries = [
             // spring boot
             springBootStarterWeb:       "org.springframework.boot:spring-boot-starter-web:${springBootVersion}",
+            springBootStarterJetty:       "org.springframework.boot:spring-boot-starter-jetty:${springBootVersion}",
             springBootGradlePlugins:       "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}",
-            springBootStarterTest:       "org.springframework.boot:spring-boot-starter-web:${springBootVersion}",
+            springBootStarterTest:       "org.springframework.boot:spring-boot-starter-jetty:${springBootVersion}",
             springBootAdminClient:       "de.codecentric:spring-boot-admin-starter-client:${springBootAdminVersion}",
 
             //lombok

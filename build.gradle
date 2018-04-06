@@ -30,7 +30,7 @@ idea {
 }
 
 dependencies {
-	compile(libraries.springBootStarterWeb)
+	compile(libraries.springBootStarterJetty)
 	compile(libraries.springBootAdminClient)
 	compile(libraries.lombok)
 	compile(libraries.guava)
