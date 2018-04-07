@@ -32,6 +32,8 @@ idea {
 dependencies {
 	compile(libraries.springBootStarterJetty)
 	compile(libraries.springBootAdminClient)
+	compile(libraries.swagger2)
+	compile(libraries.swaggerUI)
 	compile(libraries.lombok)
 	compile(libraries.guava)
 	compile(libraries.fastjson)

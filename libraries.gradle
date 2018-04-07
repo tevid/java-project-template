@@ -9,6 +9,7 @@ ext {
     hamcrestVersion = '1.3'
     httpclientVersion = '4.5.3'
     commonsIOVersion = '2.6'
+    swaggerVersion = '2.6.0'
 
     libraries = [
             // spring boot
@@ -17,6 +18,10 @@ ext {
             springBootGradlePlugins:       "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}",
             springBootStarterTest:       "org.springframework.boot:spring-boot-starter-jetty:${springBootVersion}",
             springBootAdminClient:       "de.codecentric:spring-boot-admin-starter-client:${springBootAdminVersion}",
+
+            //swagger
+            swagger2:       "io.springfox:springfox-swagger2:${swaggerVersion}",
+            swaggerUI:       "io.springfox:springfox-swagger-ui:${swaggerVersion}",
 
             //lombok
             lombok:       "org.projectlombok:lombok:${lombokVersion}",
