@@ -1,14 +1,10 @@
 package com.demo;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
 
-@SpringBootApplication
-public class SearchApplication {
+@org.springframework.boot.autoconfigure.SpringBootApplication
+public class SpringBootApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SearchApplication.class, args);
+        SpringApplication.run(SpringBootApplication.class, args);
     }
 }
