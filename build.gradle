@@ -41,6 +41,8 @@ dependencies {
 	compile(libraries.hamcrestAll)
 	compile(libraries.httpclient)
 	compile(libraries.commonsIO)
+	compile(libraries.mysqlConnetor)
+	compile(libraries.mybatisStarter)
 
 	testCompile(libraries.springBootStarterTest)
 }
